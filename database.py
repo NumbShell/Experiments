@@ -72,7 +72,7 @@ def del_and_update():
     c.execute('SELECT * FROM stuffToPlot')
     [print(row) for row in c.fetchall()]
 
-    
+
 del_and_update()
 
 c.close()
